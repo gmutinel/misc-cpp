@@ -1,0 +1,16 @@
+0x00 - 0x06 "bscr" 0x00 0xAC //constant
+0x07 - 0x1F filename
+0x20 - 0x23 0x00 0x00 //constant, maybe means something?
+0x24 - 0x27 file size
+0x28 - 0x2B Number of sections
+0x2C - 0x2F 0x00 0x00 0x00 0x40 //header length
+0x30 - 0x33 4 unknown bytes //unknown meaning
+0x34 - 0x37 size of header AND/OR beginning of text/bytecodes
+0x38 - 0x3B size of shit after text
+0x3C - 0x3F beginning of shit AND/OR size of header+text
+FOR EACH SECTION
+0x02 bytes: size of the section info
+0x02 bytes: unknown
+0x20 bytes: section name
+0x04 bytes: pointer to the section's bytecodes into the deep shit at the bottom
+variable bytes: unknown
