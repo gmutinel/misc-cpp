@@ -1,0 +1,12 @@
+msd_dumper BL_msg_association.msd
+msd_dumper BL_msg_adventurers.msd
+msd_dumper BL_msg_battle.msd
+msd_dumper BL_msg_corol.msd
+msd_dumper BL_msg_item.msd
+msd_dumper BL_msg_item_helpY.msd
+msd_dumper BL_msg_menu.msd
+msd_dumper BL_msg_shop.msd
+msd_dumper BL_msg_system.msd
+msd_dumper BL_msg_world_treasure.msd
+msd_dumper BL_msg_world_treasure_report.msd
+pause

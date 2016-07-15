@@ -1,0 +1,2 @@
+KingdomHeartsDDD_Toolset -xrbin message.rbin
+pause
