@@ -1,0 +1,1 @@
+d2_unlzs start.lzs

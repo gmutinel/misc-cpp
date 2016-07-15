@@ -1,0 +1,25 @@
+﻿Compilazione avviata 28/01/2015 16:31:29.
+     1>Progetto "C:\Users\Muti\Dropbox\Misc C++\Dark\Win32Project1\Win32Project1\Win32Project1.vcxproj" sul nodo 2 (destinazioni: Rebuild).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D WIN32PROJECT1_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Release\Win32Project1.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D WIN32PROJECT1_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+     1>dllmain.cpp(236): warning C4800: 'BOOL': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+     1>dllmain.cpp(277): warning C4800: 'BOOL': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+     1>dllmain.cpp(461): warning C4800: 'char *': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D WIN32PROJECT1_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Release\Win32Project1.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt Win32Project1.cpp
+         Win32Project1.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Muti\Dropbox\Misc C++\Dark\Win32Project1\x64\Release\Win32Project1.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Muti\Dropbox\Misc C++\Dark\Win32Project1\x64\Release\Win32Project1.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Muti\Dropbox\Misc C++\Dark\Win32Project1\x64\Release\Win32Project1.lib" /MACHINE:X64 /DLL x64\Release\dllmain.obj
+         x64\Release\stdafx.obj
+         x64\Release\Win32Project1.obj
+            Creazione della libreria C:\Users\Muti\Dropbox\Misc C++\Dark\Win32Project1\x64\Release\Win32Project1.lib e dell'oggetto C:\Users\Muti\Dropbox\Misc C++\Dark\Win32Project1\x64\Release\Win32Project1.exp in corso...
+     1>dllmain.obj : error LNK2001: simbolo esterno __security_check_cookie non risolto
+     1>LINK : error LNK2001: simbolo esterno _DllMainCRTStartup non risolto
+     1>C:\Users\Muti\Dropbox\Misc C++\Dark\Win32Project1\x64\Release\Win32Project1.dll : fatal error LNK1120: 2 esterni non risolti
+     1>Compilazione progetto "C:\Users\Muti\Dropbox\Misc C++\Dark\Win32Project1\Win32Project1\Win32Project1.vcxproj" (destinazioni: Rebuild) NON COMPLETATA.
+
+Compilazione NON RIUSCITA.
+
+Tempo trascorso 00:00:02.31
