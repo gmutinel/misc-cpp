@@ -1,0 +1,10 @@
+0x04: ZLB{00}
+0x04: filenumber (always 1)
+0x02: ?? (alway 0x64 (=100))
+0x02: filename length 
+0x14: filename 
+0x04: filetype 
+0x04: padding 
+0x04: decompressed length 
+0x04: zlibbed length 
+0x04: total file length
