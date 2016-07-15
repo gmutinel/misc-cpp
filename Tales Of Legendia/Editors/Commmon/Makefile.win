@@ -1,0 +1,40 @@
+# Project: Tales_Of_Legendia_Text_Editor
+# Compiler: Default GCC compiler
+# Compiler Type: MingW 3
+# Makefile created by wxDev-C++ 7.3 on 17/05/10 16:08
+
+WXLIBNAME = wxmsw28
+CPP       = g++.exe
+CC        = gcc.exe
+WINDRES   = "windres.exe"
+OBJ       = Objects/MingW/Tales_Of_Legendia_Text_EditorApp.o Objects/MingW/Tales_Of_Legendia_Text_EditorFrm.o Objects/MingW/Tales_Of_Legendia_Text_Editor_private.res
+LINKOBJ   = "Objects/MingW/Tales_Of_Legendia_Text_EditorApp.o" "Objects/MingW/Tales_Of_Legendia_Text_EditorFrm.o" Objects/MingW/Tales_Of_Legendia_Text_Editor_private.res
+LIBS      = -L"C:/Program Files/Dev-Cpp/Lib" -mwindows -l$(WXLIBNAME) -l$(WXLIBNAME)_gl -lwxtiff -lwxjpeg -lwxpng -lwxzlib -lwxregex -lwxexpat -lkernel32 -luser32 -lgdi32 -lcomdlg32 -lwinspool -lwinmm -lshell32 -lcomctl32 -lole32 -loleaut32 -luuid -lrpcrt4 -ladvapi32 -lwsock32 -lodbc32 -lopengl32  -s 
+INCS      = -I"C:/Program Files/Dev-Cpp/Include"
+CXXINCS   = -I"C:/Program Files/Dev-Cpp/lib/gcc/mingw32/3.4.5/include" -I"C:/Program Files/Dev-Cpp/include/c++/3.4.5/backward" -I"C:/Program Files/Dev-Cpp/include/c++/3.4.5/mingw32" -I"C:/Program Files/Dev-Cpp/include/c++/3.4.5" -I"C:/Program Files/Dev-Cpp/include" -I"C:/Program Files/Dev-Cpp/" -I"C:/Program Files/Dev-Cpp/include/3rdparty/wx/plotctrl" -I"C:/Program Files/Dev-Cpp/include/3rdparty/wx/sheet" -I"C:/Program Files/Dev-Cpp/include/3rdparty/wx/treemultictrl" -I"C:/Program Files/Dev-Cpp/include/3rdparty/wx/things" -I"C:/Program Files/Dev-Cpp/include/3rdparty/wx" -I"C:/Program Files/Dev-Cpp/include/3rdparty" -I"C:/Program Files/Dev-Cpp/include/common/wx/msw" -I"C:/Program Files/Dev-Cpp/include/common/wx/generic" -I"C:/Program Files/Dev-Cpp/include/common/wx/fl" -I"C:/Program Files/Dev-Cpp/include/common/wx/gizmos" -I"C:/Program Files/Dev-Cpp/include/common/wx/html" -I"C:/Program Files/Dev-Cpp/include/common/wx/mmedia" -I"C:/Program Files/Dev-Cpp/include/common/wx/net" -I"C:/Program Files/Dev-Cpp/include/common/wx/ogl" -I"C:/Program Files/Dev-Cpp/include/common/wx/plot" -I"C:/Program Files/Dev-Cpp/include/common/wx/protocol" -I"C:/Program Files/Dev-Cpp/include/common/wx/stc" -I"C:/Program Files/Dev-Cpp/include/common/wx/svg" -I"C:/Program Files/Dev-Cpp/include/common/wx/xml" -I"C:/Program Files/Dev-Cpp/include/common/wx/xrc" -I"C:/Program Files/Dev-Cpp/include/common/wx" -I"C:/Program Files/Dev-Cpp/include/common"
+RCINCS    = --include-dir "C:/PROGRA~1/Dev-Cpp/include/common"
+BIN       = Output/MingW/Tales_Of_Legendia_Text_Editor.exe
+DEFINES   = -D__WXMSW__ -D__GNUWIN32__ -D__WIN95__
+CXXFLAGS  = $(CXXINCS) $(DEFINES) -fno-exceptions -fno-pcc-struct-return -fstrict-aliasing -Wall -D__WXMSW__ -D__GNUWIN32__ -D__WIN95__   -fexpensive-optimizations -O3
+CFLAGS    = $(INCS) $(DEFINES) -fno-exceptions -fno-pcc-struct-return -fstrict-aliasing -Wall -D__WXMSW__ -D__GNUWIN32__ -D__WIN95__   -fexpensive-optimizations -O3
+GPROF     = gprof.exe
+RM        = rm -f
+LINK      = g++.exe
+
+.PHONY: all all-before all-after clean clean-custom
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	$(RM) $(LINKOBJ) "$(BIN)"
+
+$(BIN): $(OBJ)
+	$(LINK) $(LINKOBJ) -o "$(BIN)" $(LIBS) 
+
+Objects/MingW/Tales_Of_Legendia_Text_EditorApp.o: $(GLOBALDEPS) Tales_Of_Legendia_Text_EditorApp.cpp Tales_Of_Legendia_Text_EditorApp.h Tales_Of_Legendia_Text_EditorFrm.h
+	$(CPP) -c Tales_Of_Legendia_Text_EditorApp.cpp -o Objects/MingW/Tales_Of_Legendia_Text_EditorApp.o $(CXXFLAGS)
+
+Objects/MingW/Tales_Of_Legendia_Text_EditorFrm.o: $(GLOBALDEPS) Tales_Of_Legendia_Text_EditorFrm.cpp Tales_Of_Legendia_Text_EditorFrm.h Images/Self_Tales_Of_Legendia_Text_EditorFrm_XPM.xpm
+	$(CPP) -c Tales_Of_Legendia_Text_EditorFrm.cpp -o Objects/MingW/Tales_Of_Legendia_Text_EditorFrm.o $(CXXFLAGS)
+
+Objects/MingW/Tales_Of_Legendia_Text_Editor_private.res: Objects/MingW/Tales_Of_Legendia_Text_Editor_private.rc Tales_Of_Legendia_Text_EditorApp.rc 
+	$(WINDRES) --input-format=rc -o Objects/MingW/Tales_Of_Legendia_Text_Editor_private.res $(RCINCS) Objects/MingW/Tales_Of_Legendia_Text_Editor_private.rc -O coff

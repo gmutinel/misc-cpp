@@ -1,0 +1,2 @@
+tol_unmcd skit_map008.mcd
+pause

@@ -1,0 +1,9 @@
+sod_iear_unpacker 04.iear
+sod_iear_unpacker 30.iear
+sod_iear_unpacker 30a.iear
+sod_iear_unpacker 30b.iear
+sod_iear_unpacker 30c.iear
+sod_iear_unpacker 30d.iear
+sod_iear_unpacker 31.iear
+sod_iear_unpacker 31a.iear
+sod_iear_unpacker 31b.iear

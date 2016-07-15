@@ -1,0 +1,2 @@
+a 0x68 c'è il puntatore al blocco di testo (SEEK_CUR a partire da 0x40)
+da lì (S2B) ci'è il numero di stringhe, 0x01 e padding. Dopo i puntatori SEEK_CUR partendo da S2B

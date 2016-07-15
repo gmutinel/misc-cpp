@@ -1,0 +1,251 @@
+250 ; Used data from ClientRegistry.blob --- 03/16/2007
+   0,                                ,Half-Life Engine.gcf
+   1,                                ,Half-Life.gcf
+   3,                                ,Platform.gcf
+   5,                                ,Dedicated Server.gcf
+   7,                                ,winui.gcf
+  11,                                ,Counter-Strike.gcf
+  21,                                ,Team Fortress Classic.gcf
+  31,                                ,Day of Defeat.gcf
+  41,                                ,Deathmatch Classic.gcf
+  51,                                ,Opposing Force.gcf
+  61,                                ,Ricochet.gcf
+  81,                                ,Condition Zero.gcf
+  92,02E0CDAC8DD7DC4357A560D60C536DD3,Codename Gordon.gcf
+  95,                                ,Condition Zero Models.gcf
+  96,                                ,Half-Life High Definition.gcf
+ 101,                                ,Condition Zero Deleted Scenes Base Content.gcf
+ 102,104C1AD67C9B392430D81299FE93830D,Condition Zero Deleted Scenes Models.gcf
+ 103,08242806190C9532B7D184B5A79777A0,Condition Zero Deleted Scenes Sounds.gcf
+ 130,                                ,Half-Life Blue Shift.gcf
+ 200,C596D1BA1FEAD9A40DD0058118F58975,Source Engine.gcf
+ 202,                                ,SourceInit.gcf
+ 203,                                ,Source Shared Securom.gcf
+ 205,                                ,Source Dedicated Server.gcf
+ 206,33648B73E732E0734E34FE3CDA09AB74,Source Materials.gcf
+ 207,D147FC333F1B2B18A8E0B9354B94AFF6,Source Models.gcf
+ 208,9DC57C809A92196E2674ADA87AEA0FCE,Source Sounds.gcf
+ 209,                                ,Source LV.gcf
+ 211,                                ,SourceSDK.gcf
+ 212,                                ,Base Source Engine 2.gcf
+ 213,929CE07840B7EEB585AD8977E1DDA6DF,Episode 1 Shared.gcf
+ 215,                                ,Source SDK Base.gcf
+ 221,187D516D65C617EB6FE90FB20211DEC6,Half-Life 2 Content.gcf
+ 223,AB0775D3365AEB93CF71502040DE8B45,Half-Life 2_French.gcf
+ 224,5F6CF8A4452D5D093D11D6BB53CA8EA7,Half-Life 2_Italian.gcf
+ 225,507FC4BC36F19295454DB9C88C69B60C,Half-Life 2_German.gcf
+ 226,C7024080CF2D1F2449E0157FC08F849B,Half-Life 2_Spanish.gcf
+ 227,56BF21CF42EE89FFDE3CAAB9C5E88112,Half-Life 2_sChinese.gcf
+ 228,D791F899C1813A7D4B96AB7590E9AF75,Half-Life 2_Korean.gcf
+ 229,DAA3DAFFBBD5AB91B3BFFB04E12DB109,Half-Life 2_Koreana.gcf
+ 230,4BDA3FDCE8596326D56AD810598D6249,Half-Life 2_tChinese.gcf
+ 231,BE5BE8B8911F8CFF650765102BB96D59,Half-Life 2_Japanese.gcf
+ 232,BE187DCE3ACF68C0FAA3B8B139DF1EC1,Half-Life 2_Russian.gcf
+ 233,E53D7F9C9B7D521E7ACB13EB3F6B9465,Half-Life 2_Thai.gcf
+ 235,                                ,Half-Life 2 Buka Russian.gcf
+ 241,                                ,Counter-Strike Source Client.gcf
+ 242,D1C6EA82416EF4053E0B7E4C242D770F,Half-Life 2_Portuguese.gcf
+ 252,                                ,Counter-Strike Source_Russian.gcf
+ 281,87B3CEC59F6EC04A8CED7907CF8ACDD6,Half-Life Source.gcf
+ 283,1C053D5A19F8AE9E15E35FDC6845900F,Half-Life Source_French.gcf
+ 284,D7A03C47C8C0604CDA12C296DBB50C85,Half-Life Source_Italian.gcf
+ 285,907DF15E8055D5C78FC246A82C5517E1,Half-Life Source_German.gcf
+ 286,0D2A911E44273A56246DD531E02F388B,Half-Life Source_Spanish.gcf
+ 287,3F5E294EB83D8C9C748FDB1562C73AA0,Half-Life Source_sChinese.gcf
+ 288,6D3F4E9C60F7F4DA304624801D129D8C,Half-Life Source_Korean.gcf
+ 289,1A9B35F754A48C337AD8D783B274B8EE,Half-Life Source_Koreana.gcf
+ 290,56B07C02E753EAFEA8B2C0F4B36C80FC,Half-Life Source_tChinese.gcf
+ 291,BA591F2C3B6EDDE7770C453EFD7BC441,Half-Life Source_Japanese.gcf
+ 292,C8009E7631917FC6A6BCBF9D768BDE34,Half-Life Source_Russian.gcf
+ 293,D8BB2A212D11F92864CA1F4C7A3704AB,Half-Life Source_Thai.gcf
+ 301,9900A4E8B31892EB0DD9FD06958F0E81,Day of Defeat Source.gcf
+ 321,                                ,Half-Life 2 Deathmatch.gcf
+ 341,                                ,LostCoast Content.gcf
+ 347,                                ,Half-Life 2 Lost Coast Russian.gcf
+ 360,7BA9C94F4FA96E9BC7E59658C746D038,Half-Life Deathmatch Source.gcf
+ 363,                                ,Half-Life Source Deathmatch client.gcf
+ 381,1A213AC774D23C7474BE018F227A6A7D,Half-Life 2 Episode One.gcf
+ 382,1CFD13274AD56013BAA3A0F5B1F66BE3,Half-Life 2 Episode One French.gcf
+ 383,1C053D5A19F8AE9E15E35FDC6845900F,Half-Life 2 Episode One German.gcf
+ 384,EFD67A80A05596E65E35A4433111FB5E,Half-Life 2 Episode One Italian.gcf
+ 385,17CEE5CF7D99BE3EBDFDF963370B752D,Half-Life 2 Episode One Korean.gcf
+ 386,72F3A99C8DB6F974435BA27A091C4AF3,Half-Life 2 Episode One Koreana.gcf
+ 387,0F8BBBEA1100962364DBC7974EA47747,Half-Life 2 Episode One Russian.gcf
+ 388,C2ACB518649B3CEFCC42FD0E537821C3,Half-Life 2 Episode One schinese.gcf
+ 389,1CC014145AE764C5FB367DC7115A28A4,Half-Life 2 Episode One spanish.gcf
+ 390,A80B966DC925E9C707EC903DE13D14AD,Half-Life 2 Episode One tchinese.gcf
+ 910,9B19C7ACDA48FDB51CAD53D1E7828C56,Media Player.gcf
+1000,EA59292C2ACF0C112562C3200442E0E7,Rag Doll Kung Fu.gcf
+1001,653250B9BDAE6A42DCA693746621F9DB,Rag Doll Kung Fu Beta.gcf
+1003,653250B9BDAE6A42DCA693746621F9DB,Rag Doll Kung Fu Demo.gcf
+1201,F631C0830D7D9BE0E826650E22E73734,RedOrchestraCommon.ncf
+1202,C51AE318173790B7EA8780592B4A11C5,RedOrchestraClient.ncf
+1203,0129B27CAB1AA4E855FC9B88B24AD15D,Red Orchestra Windows Dedicated Server.gcf
+1204,F22A6242068A39475DAFEF70E1BA8E22,Red Orchestra Linux Dedicated Server.gcf
+1206,                                ,Red Orchestra Russian.ncf
+1221,0D2DD9EEA66F47DD3E9F7721DEC6F450,RedOrchestraSDK1.gcf
+1222,C4ED72BAB3811A0F17B6E9F279C1ADBE,RedOrchestraSDK2.gcf
+1301,D42BC888D652A4F5FF3ED93A3201CDFD,SinEpisodes Materials.gcf
+1302,12E1AB36FA5DB3E19F565F623A272390,SinEpisodes Models.gcf
+1303,7FA25F96C60A11C0853EC57166129100,SinEpisodes Sounds.gcf
+1304,A3A9AC862E45EF481EEE8A4FF2A12630,SinEpisodes Core.gcf
+1305,6BB43C2DA379098191D96FBAB191EA01,Sinepisodes Emergence.gcf
+1308,                                ,SinEpisodes Arena.gcf
+1311,                                ,SiN 1 Content.gcf
+1315,                                ,Sin Episodes Emergence Russian.gcf
+1316,                                ,SinEpisodes Unabridged.gcf
+1318,                                ,SinEpisodes SDK.gcf
+1501,4B690900FC87C018EC5A76D298E8C882,Darwinia.gcf
+1511,                                ,Uplink Content.ncf
+1521,ABE5DD71C7E2260626DFA42BD8F2CEA9,Defcon Content.ncf
+1601,98F07EF0A4716BAC11F0FDD742AA6878,Dangerous Waters.gcf
+1611,7043A4BA15FDC59A1A0984291140EDA9,Space Empires IV Deluxe.gcf
+1671,                                ,Iron Warriors Content.ncf
+1672,                                ,Iron Warriors Levels.ncf
+1691,                                ,SE5Depot.ncf
+1901,7AD13CBC3752A8D163BE2995380FD123,Earth 2160 Content.ncf
+1902,CDF18B1FA04328BBFABADAECB46AF06D,Earth 2160 French.ncf
+1903,5698203DE82356FFEA2D85A702C970ED,Earth 2160 Spanish.ncf
+2101,56927D16413DA1E7A7EC3DE00EDD73C1,mm_engine_pub.gcf
+2102,07FF36A468677762C93401ED2632BC69,mm_levels_public.gcf
+2103,13028D77092C106097AC67D741988138,mm_models_pub.gcf
+2104,999DF914E8FEDCE8375A06AC282C8A2F,mm_materials_a_pub.gcf
+2105,CDE26379368695BC52B3E237B1888AC1,mm_materials_b_pub.gcf
+2106,8EE384DE3549172665EDFFFC9BC5D0E5,mm_materials_c_pub.gcf
+2107,F90395D4DDC43642AB54BBA3C5BC0A93,mm_sound_pub.gcf
+2108,D4B8D0BF9FF327515116509721A2FE74,mm_sound_lang_EN_pub.gcf
+2109,6F9E9A4A94F2468557ED076D941CD08D,mm_media.gcf
+2121,3B1FACB00414B2DC186647751089AC8E,Dark Messiah Might and Magic Single Player French.gcf
+2122,081554BC9F716641B50681CBC13C7E2F,Dark Messiah Might and Magic Single Player Italian.gcf
+2123,E3F5B6300E5BD26665A7EE8738F0E8D3,Dark Messiah Might and Magic Single Player German.gcf
+2124,4AC1A5AD881DCA2056728415EBB9E106,Dark Messiah Might and Magic Single Player Spanish.gcf
+2125,EB8FA293765540A039806BE18AD7F835,Dark Messiah Might and Magic Single Player Russian.gcf
+2131,                                ,MM_MP_Engine.gcf
+2132,                                ,MM_MP_Models.gcf
+2133,                                ,MM_MP_Materials.gcf
+2134,                                ,MM_MP_Generic.gcf
+2135,                                ,MM_MP_Sound.gcf
+2136,                                ,MM_MP_English.gcf
+2141,                                ,Dark Messiah Might and Magic Multi-Player Russian.gcf
+2144,41478EB7D69FF766D50B7A8280DF5F79,MM_MP_Server.gcf
+2401,9299D9B9E48F78C230887977C4AD13A0,The Ship.gcf
+2402,1C44D2B02B5A6344CBFF267070B9CAC7,The Ship Common.gcf
+2403,                                ,The Ship Dedicated Server.gcf
+2405,                                ,The Ship Single Player Content.gcf
+2406,                                ,The Ship Tutorial Content.gcf
+2433,                                ,The Ship Single Player Russian.gcf
+2501,9D9CEC2A0BBA871A771555BCF58D543C,shadowgrounds content.ncf
+2502,8CF6CD0260204569CDF2129C5380897B,Shadowgrounds French.ncf
+2503,93B27487FCB38C92007AC111764659D0,Shadowgrounds German.ncf
+2504,88ED4EC18B46D61D286643E5EE6E6E31,Shadowgrounds Spanish.ncf
+2521,                                ,Gumboy Crazy Adventures Content.ncf
+2524,                                ,Gumboy Crazy Features Content.ncf
+2611,                                ,GUN Content.ncf
+2612,                                ,GUN Data1.ncf
+2612,                                ,GUN Data2.ncf
+2621,                                ,Call of Duty Content.ncf
+2623,                                ,Call of Duty Multiplayer English.ncf
+2631,                                ,Call of Duty 2 Content.ncf
+2632,                                ,Call of Duty 2 Main1.ncf
+2633,                                ,Call of Duty 2 Main2.ncf
+2634,                                ,Call of Duty 2 Multiplayer English.ncf
+2641,                                ,Call of Duty United Offensive Content.ncf
+2641,                                ,Call of Duty United Offensive Multiplayer English.ncf
+2801,                                ,X2 The Threat Content.ncf
+2811,                                ,X3 Reunion Binaries.ncf
+2812,                                ,X3 Reunion Mov.ncf
+2813,                                ,X3 Reunion Data1.ncf
+2814,                                ,X3 Reunion Data2.ncf
+2901,F91BCBB6F53505981F84566F6539F1B3,688I Hunter-Killer Content.ncf
+2911,                                ,Fleet Command Content.ncf
+2921,                                ,Sub Command Content.ncf
+2931,                                ,Birth Of America Content.ncf
+3001,                                ,GTI Racing Content.ncf
+3002,                                ,GTI Racing Cars.ncf
+3011,                                ,Xpand Rally Content.ncf
+3301,                                ,Bejeweled 2 Deluxe Content.ncf
+3311,                                ,Chuzzle Deluxe Content.ncf
+3321,                                ,Insaniquarium Deluxe Content.ncf
+3331,                                ,Zuma Deluxe Content.ncf
+3341,                                ,AstroPop Deluxe Content.ncf
+3351,                                ,Bejeweled Deluxe Content.ncf
+3361,                                ,Big Money Deluxe Content.ncf
+3371,                                ,BookWorm Deluxe Content.ncf
+3381,                                ,Dynomite Deluxe Content.ncf
+3391,                                ,Feeding Frenzy 2 Deluxe Content.ncf
+3401,                                ,Hammer Heads Deluxe Content.ncf
+3411,                                ,Heavy Weapon Deluxe Content.ncf
+3421,                                ,Iggle Pop Deluxe Content.ncf
+3431,                                ,Pizza Frenzy Content.ncf
+3441,                                ,Rocket Mania Deluxe Content.ncf
+3451,                                ,Typer Shark Deluxe Content.ncf
+3461,                                ,Talismania Deluxe Content.ncf
+3471,                                ,Bookworm Adventures Deluxe Content.ncf
+3481,                                ,Peggle Deluxe Content.ncf
+3701,                                ,Sniper Elite Content.ncf
+3702,                                ,Sniper Elite Sound.ncf
+3703,                                ,Sniper Elite Environments1.ncf
+3704,                                ,Sniper Elite Environments2.ncf
+3801,                                ,Advert Rising Content1.ncf
+3802,                                ,Advert Rising Content2.ncf
+3803,                                ,Advert Rising Movies1.ncf
+3804,                                ,Advert Rising Movies2.ncf
+3811,                                ,BloodRayne Content.ncf
+3821,                                ,BloodRayne 2 Content.ncf
+3822,                                ,BloodRayne 2 ArtPod.ncf
+3823,                                ,BloodRayne 2 SetPod.ncf
+3824,                                ,BloodRayne 2 Pods.ncf
+3831,                                ,Psychonauts Content.ncf
+3832,                                ,Psychonauts Levels.ncf
+3833,                                ,Psychonauts Cutscenes1.ncf
+3834,                                ,Psychonauts Cutscenes2.ncf
+3901,                                ,Sid Meier's Civilization IV Content.ncf
+3911,                                ,Sid Meier's Civilization III Complete Content.ncf
+3912,                                ,Sid Meier's Civilization III Complete Art.ncf
+3921,                                ,Sid Meier's Pirates! Content.ncf
+3961,                                ,Shattered Union Content.ncf
+4001,                                ,GarrysMod Content.gcf
+4101,                                ,Poker Superstars II Depot.ncf
+4231,9656AA3CC1DD94CE3D68D40A2E208184,Race Files.gcf
+4232,149493E2C80D667D417386E07BD35C1F,Race Textures.gcf
+4301,                                ,RoboBlitzDepot.ncf
+4401,                                ,City Life Content.ncf
+4701,8C6DA8312DA203077140D0EFA8FBF829,Medieval II Total War Content.ncf
+4702,022DA2ECF1AB01E83028607C82972619,Medieval II Total War FMV.ncf
+4703,97DAFA0CE3B20B911438CD77444BECE8,Medieval II Total War Sound1.ncf
+4704,3935EF873A7181B786BA5EF12D5EF62A,Medieval II Total War Sound2.ncf
+4705,90104AC61B42B1E1089B6DB054FD86C4,Medieval II Total War Pack1.ncf
+4706,3C47DAF2ACF2C6B859F99E113DB051D4,Medieval II Total War Pack2.ncf
+4707,D12CB9FBD10A7702D3E16588909A4D3F,Medieval II Total War Pack3.ncf
+4708,8511BFCEAC3D86C3FF1B6C48BA87993D,Medieval II Total War Pack4.ncf
+4801,CE345436CEBFA9A16420A136BFB9CE14,Heroes of Annihiliated Empires Content1.ncf
+4802,BE7DA04084198FBD792CFB1497FC89B5,Heroes of Annihiliated Empires Content2.ncf
+4803,C6E5C05D71CFE2E6BE4C794F5780955F,Heroes of Annihiliated Empires French.ncf
+4804,2DD9AD6B9E4300F109602C76A6A67947,Heroes of Annihiliated Empires German.ncf
+4805,03FEE2AC00656F40474D71CAA2D8DE49,Heroes of Annihiliated Empires Russian.ncf
+4901,                                ,ZenOfSudoku.ncf
+6101,                                ,Eets Content.ncf
+6252,C37B466E968A1E67B43CDC805B911885,Making History 2.0 Rel Content.ncf
+6841,                                ,Commandos 3 Destination Berlin Content1.ncf
+6851,                                ,Hitman 2 Silent Assassin Content.ncf
+6901,                                ,Hitman Codename 47 Content.ncf
+6931,                                ,Just Cause Demo Content.ncf
+6941,                                ,Battlestations Midway Multiplayer Demo Content.ncf
+6951,                                ,Hitman Blood Money Demo Content.ncf
+7111,7DDABEA96580A7F1E645779B84CB0BBB,Jade Empire Data.ncf
+7112,40AC7BC146F8948F3718C5F0736FDD32,Jade Empire Sound.ncf
+7113,364020A4B22F018C79FBB1D700342984,Jade Empire Movies1.ncf
+7114,1F02D496ABB2A9A1CB037224EE744661,Jade Empire Movies2.ncf
+7115,4CA011837F60A0FE9F48F7199527BDC7,Jade Empire Movies3.ncf
+7116,195C3AB18433942D1C867EAF6BA546CF,Jade Empire Italian.ncf
+7117,6E44CAF7BB06E7B658F5201AC6CBF1B9,Jade Empire Spanish.ncf
+7118,A2F770B27DE3EAF3A0080B89CC1C15CA,Jade Empire French.ncf
+7119,8F97F2E46504E566E5B259C8D41C8822,Jade Empire German.ncf
+7211,                                ,Runaway A Road Adventure Conrent1.ncf
+7212,                                ,Runaway A Road Adventure Conrent2.ncf
+7221,                                ,Runaway The Dream of the Turtle Binaries.ncf
+7222,                                ,Runaway The Dream of the Turtle Content1.ncf
+7223,                                ,Runaway The Dream of the Turtle Resource1.ncf
+7224,                                ,Runaway The Dream of the Turtle Resource2.ncf
+7225,                                ,Runaway The Dream of the Turtle Resource3.ncf
+7231,                                ,Runaway The Dream of the Turtle Demo Content.ncf

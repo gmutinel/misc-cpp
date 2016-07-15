@@ -1,0 +1,40 @@
+# Project: Sands Of Destruction Text Editor
+# Compiler: Default GCC compiler
+# Compiler Type: MingW 3
+# Makefile created by wxDev-C++ 7.3 on 25/01/10 14.43
+
+WXLIBNAME = wxmsw28
+CPP       = g++.exe
+CC        = gcc.exe
+WINDRES   = "windres.exe"
+OBJ       = Objects/MingW/Sands\ Of\ Destruction\ Text\ EditorApp.o Objects/MingW/Sands\ Of\ Destruction\ Text\ EditorFrm.o Objects/MingW/Sands_Of_Destruction_Text_Editor_private.res
+LINKOBJ   = "Objects/MingW/Sands Of Destruction Text EditorApp.o" "Objects/MingW/Sands Of Destruction Text EditorFrm.o" Objects/MingW/Sands_Of_Destruction_Text_Editor_private.res
+LIBS      = -L"C:/Programmi/Dev-Cpp/Lib" -mwindows -l$(WXLIBNAME) -l$(WXLIBNAME)_gl -lwxtiff -lwxjpeg -lwxpng -lwxzlib -lwxregex -lwxexpat -lkernel32 -luser32 -lgdi32 -lcomdlg32 -lwinspool -lwinmm -lshell32 -lcomctl32 -lole32 -loleaut32 -luuid -lrpcrt4 -ladvapi32 -lwsock32 -lodbc32 -lopengl32  
+INCS      = -I"C:/Programmi/Dev-Cpp/Include"
+CXXINCS   = -I"C:/Programmi/Dev-Cpp/lib/gcc/mingw32/3.4.5/include" -I"C:/Programmi/Dev-Cpp/include/c++/3.4.5/backward" -I"C:/Programmi/Dev-Cpp/include/c++/3.4.5/mingw32" -I"C:/Programmi/Dev-Cpp/include/c++/3.4.5" -I"C:/Programmi/Dev-Cpp/include" -I"C:/Programmi/Dev-Cpp/" -I"C:/Programmi/Dev-Cpp/include/3rdparty/wx/plotctrl" -I"C:/Programmi/Dev-Cpp/include/3rdparty/wx/sheet" -I"C:/Programmi/Dev-Cpp/include/3rdparty/wx/treemultictrl" -I"C:/Programmi/Dev-Cpp/include/3rdparty/wx/things" -I"C:/Programmi/Dev-Cpp/include/3rdparty/wx" -I"C:/Programmi/Dev-Cpp/include/3rdparty" -I"C:/Programmi/Dev-Cpp/include/common/wx/msw" -I"C:/Programmi/Dev-Cpp/include/common/wx/generic" -I"C:/Programmi/Dev-Cpp/include/common/wx/fl" -I"C:/Programmi/Dev-Cpp/include/common/wx/gizmos" -I"C:/Programmi/Dev-Cpp/include/common/wx/html" -I"C:/Programmi/Dev-Cpp/include/common/wx/mmedia" -I"C:/Programmi/Dev-Cpp/include/common/wx/net" -I"C:/Programmi/Dev-Cpp/include/common/wx/ogl" -I"C:/Programmi/Dev-Cpp/include/common/wx/plot" -I"C:/Programmi/Dev-Cpp/include/common/wx/protocol" -I"C:/Programmi/Dev-Cpp/include/common/wx/stc" -I"C:/Programmi/Dev-Cpp/include/common/wx/svg" -I"C:/Programmi/Dev-Cpp/include/common/wx/xml" -I"C:/Programmi/Dev-Cpp/include/common/wx/xrc" -I"C:/Programmi/Dev-Cpp/include/common/wx" -I"C:/Programmi/Dev-Cpp/include/common"
+RCINCS    = --include-dir "C:/PROGRA~1/Dev-Cpp/include/common"
+BIN       = Output/MingW/Sands Of Destruction Text Editor.exe
+DEFINES   = -D__WXMSW__ -D__GNUWIN32__ -D__WIN95__
+CXXFLAGS  = $(CXXINCS) $(DEFINES) -fno-exceptions -fno-pcc-struct-return -fstrict-aliasing -Wall -D__WXMSW__ -D__GNUWIN32__ -D__WIN95__   -fexpensive-optimizations -O3
+CFLAGS    = $(INCS) $(DEFINES) -fno-exceptions -fno-pcc-struct-return -fstrict-aliasing -Wall -D__WXMSW__ -D__GNUWIN32__ -D__WIN95__   -fexpensive-optimizations -O3
+GPROF     = gprof.exe
+RM        = rm -f
+LINK      = g++.exe
+
+.PHONY: all all-before all-after clean clean-custom
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	$(RM) $(LINKOBJ) "$(BIN)"
+
+$(BIN): $(OBJ)
+	$(LINK) $(LINKOBJ) -o "$(BIN)" $(LIBS) 
+
+Objects/MingW/Sands\ Of\ Destruction\ Text\ EditorApp.o: $(GLOBALDEPS) Sands\ Of\ Destruction\ Text\ EditorApp.cpp Sands\ Of\ Destruction\ Text\ EditorApp.h Sands\ Of\ Destruction\ Text\ EditorFrm.h
+	$(CPP) -c "Sands Of Destruction Text EditorApp.cpp" -o "Objects/MingW/Sands Of Destruction Text EditorApp.o" $(CXXFLAGS)
+
+Objects/MingW/Sands\ Of\ Destruction\ Text\ EditorFrm.o: $(GLOBALDEPS) Sands\ Of\ Destruction\ Text\ EditorFrm.cpp Sands\ Of\ Destruction\ Text\ EditorFrm.h Images/Self_Sands_Of_Destruction_Text_EditorFrm_XPM.xpm
+	$(CPP) -c "Sands Of Destruction Text EditorFrm.cpp" -o "Objects/MingW/Sands Of Destruction Text EditorFrm.o" $(CXXFLAGS)
+
+Objects/MingW/Sands_Of_Destruction_Text_Editor_private.res: Objects/MingW/Sands_Of_Destruction_Text_Editor_private.rc Sands\ Of\ Destruction\ Text\ EditorApp.rc 
+	$(WINDRES) --input-format=rc -o Objects/MingW/Sands_Of_Destruction_Text_Editor_private.res $(RCINCS) Objects/MingW/SANDS_~1.RC -O coff
